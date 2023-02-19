@@ -1,4 +1,4 @@
-# Bezier Curve Drawing Code
+# Bezier Pen Tool
 This code is a simple implementation of a Bezier curve drawing program using C++. It uses the open-source library GLFW for creating and handling windows, and basic mathematics for calculating distance between points and drawing curves.
 
 The Bezier curve is a parametric curve used in computer graphics, design, and animation. The curve is defined by a set of control points, which can be used to adjust the shape of the curve.
