@@ -1,5 +1,5 @@
 # Bezier Pen Tool
-This code is a simple implementation of a Bezier curve drawing program using C++. It uses the open-source library GLFW for creating and handling windows, and basic mathematics for calculating distance between points and drawing curves.
+This code is a simple implementation of a spline-based pen tool program that uses bezier curves and C++. It uses the open-source library GLFW for creating and handling windows, and basic mathematics for calculating distance between points and drawing curves.
 
 The Bezier curve is a parametric curve used in computer graphics, design, and animation. The curve is defined by a set of control points, which can be used to adjust the shape of the curve.
 
@@ -11,8 +11,10 @@ The program allows you to create Bezier curves by adding control points with you
 
 When you add a new end point, the program will automatically create a handle that will control the shape of the curve near the point. Interior points have two handles. You can adjust the handles by clicking and dragging them. When you click and drag a handle, you will see the curve change in real time.
 
+Press key "e" to reset spline.
+
 # Files
 assignment3.cpp: The main code file for the Bezier curve drawing program.
 
-bezierdemo.mov: Demonstration of usage
+splinedemo.mov: Demonstration of usage
 
