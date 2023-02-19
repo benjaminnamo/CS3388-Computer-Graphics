@@ -11,7 +11,7 @@ The program allows you to create Bezier curves by adding control points with you
 
 When you add a new end point, the program will automatically create a handle that will control the shape of the curve near the point. Interior points have two handles. You can adjust the handles by clicking and dragging them. When you click and drag a handle, you will see the curve change in real time.
 
-Press key "e" to reset spline.
+Press key "e" to reset spline drawing.
 
 # Files
 assignment3.cpp: The main code file for the Bezier curve drawing program.
