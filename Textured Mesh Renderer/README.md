@@ -5,7 +5,7 @@ This program loads triangle mesh data and textures from files, renders them, and
 
 
 ## Installation
-This program requires a C++ compiler and the OpenGL, GLFW, GLM, and GLEW libraries to be installed. To install OpenGL and GLFW on Ubuntu, you can use the following command:
+This program requires a C++ compiler and the OpenGL, GLFW, GLM, and GLEW libraries to be installed. To install OpenGL, GLFW, GLM, and Glew on Ubuntu, you can use the following command:
 
 ```
 sudo apt install libopengl-dev
