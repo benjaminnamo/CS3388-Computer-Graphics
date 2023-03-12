@@ -30,7 +30,7 @@ void readPLYFile (std::string fname, std::vector<VertexData>& vertices, std::vec
 
 The program has 10 PLY files to read, each with their bitmap texture.
 
-Code Structure
+## Code Structure
 The program has a TexturedMesh class that encapsulates a textured triangle mesh. The constructor of the class takes two file paths: one for a PLY file and another for a bitmap image file. The loadARGB_BMP function is used in C/C++ to load the bitmap image, while the Python program uses the PIL library. The readPLYFile function reads the vertices and faces data from the PLY file.
 
 The TexturedMesh class has instance variables for:
