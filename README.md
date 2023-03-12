@@ -7,4 +7,4 @@ This code is a simple implementation of a spline-based pen tool program that use
 
 
 ## Textured Mesh Renderer
-The program is a C++ implementation that allows the user to read triangle mesh data from a file to render textured triangle meshes using VBOs and VAOs. The program includes a limited "first-person camera" which moves relatively smoothly using the arrow keys, and a readPLYFile function to handle the vertex properties and faces of 10 PLY files, each with their own bitmap texture.
+The program is a C++ implementation that uses libraries GLFW, GLM and Glew. The program allows the user to read triangle mesh data from a file to render textured triangle meshes using VBOs and VAOs. The program includes a limited "first-person camera" which moves relatively smoothly using the arrow keys, and a readPLYFile function to handle the vertex properties and faces of 10 PLY files, each with their own bitmap texture.
