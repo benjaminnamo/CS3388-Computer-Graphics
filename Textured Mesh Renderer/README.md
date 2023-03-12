@@ -1,5 +1,5 @@
 # Textured Mesh Renderer
-This program loads triangle mesh data and textures from files, renders them, and allows the user to explore the rendered world by moving the camera around via arrow keys. It is designed to help the user get comfortable with triangular meshes and working with the camera in world space.
+This program loads triangle mesh data and textures from files, renders them, and allows the user to explore the rendered world by moving the camera around via arrow keys. It is designed to establish comfort with triangular meshes and working with the camera in world space.
 
 ![Screenshot](screenshot3.png)
 
