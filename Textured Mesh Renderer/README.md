@@ -27,3 +27,20 @@ The readPLYFile function reads a PLY file and returns a list of VertexData objec
 ```
 void readPLYFile (std::string fname, std::vector<VertexData>& vertices, std::vector<TriData>& faces);
 ```
+
+The program has 10 PLY files to read, each with their bitmap texture.
+
+Code Structure
+The program has a TexturedMesh class that encapsulates a textured triangle mesh. The constructor of the class takes two file paths: one for a PLY file and another for a bitmap image file. The loadARGB_BMP function is used in C/C++ to load the bitmap image, while the Python program uses the PIL library. The readPLYFile function reads the vertices and faces data from the PLY file.
+
+The TexturedMesh class has instance variables for:
+
+An integer ID for the VBO to store the vertex positions
+An integer ID for the VBO to store the texture coordinates
+An integer ID for the VBO to store the face’s vertex indices
+An integer ID for the Texture Object created to store the bitmap image.
+An integer ID for the VAO used to render the texture mesh
+An integer ID for the shader program created and linked to render the particular textured mesh
+The class also has a draw(glm::mat4 MVP) instance method that is called by the main function to render that TexturedMesh object.
+
+In the main method, all the TexturedMesh objects are created, and a projection matrix is set up with a vertical field of view of 45°. In the render loop, user input is handled to move the camera around, and the TextureMesh.draw function is called to render the textured mesh.
