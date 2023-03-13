@@ -3,7 +3,7 @@ This code is a simple implementation of a spline-based pen tool program that use
 
 The Bezier curve is a parametric curve used in computer graphics, design, and animation. The curve is defined by a set of control points, which can be used to adjust the shape of the curve.
 
-![Screenshot](screenshot.png)
+![Screenshot](splinedemo.mov)
 
 ## Installation
 In order to run the program, you will need to have GLFW installed on your machine. You can download GLFW from the official website at https://www.glfw.org/. Follow the instructions for installing the library, then run the code in your preferred C++ compiler.
