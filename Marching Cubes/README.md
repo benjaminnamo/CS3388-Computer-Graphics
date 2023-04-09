@@ -7,11 +7,16 @@ The Marching Cubes algorithm is a popular method for generating 3D meshes due to
 ## Known Bugs
 There are no known bugs at this time.
 
-## Instructions for Compiling
-Install required libraries: GLFW, GLEW, and GLM
-Run cmake . to generate the build files
-Run make to compile the project
-Execute the generated binary
+## Installation
+This program requires a C++ compiler and the OpenGL, GLFW, GLM, and GLEW libraries to be installed. To install OpenGL, GLFW, GLM, and Glew on Ubuntu, you can use the following command:
+
+```
+sudo apt install libopengl-dev
+sudo apt install libglfw3-dev
+sudo apt install libglm-dev
+sudo apt-get install libglew-dev
+```
+Also, make sure you have downloaded shaders.hpp, TriTable.hpp, and CubeAxes.hpp.
 
 ## Main Features
 Marching Cubes mesh generation
