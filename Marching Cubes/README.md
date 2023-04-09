@@ -1,6 +1,6 @@
 # Marching Cubes - 3D Surface Reconstruction
 This code is an implementation of the Marching Cubes algorithm, which is used for generating a 3D triangular mesh from a scalar field (a 3D function). The algorithm marches through the 3D space, creating triangles by examining the field values at the corners of cubes.
-![Screenshot](function1.png) ![Screenshot](function2.png)
+![Screenshot](renderimage.png)
 
 ## Why this approach
 The Marching Cubes algorithm is a popular method for generating 3D meshes due to its simplicity and effectiveness. This implementation includes GLFW and GLEW for OpenGL support, and GLM for matrix operations.
