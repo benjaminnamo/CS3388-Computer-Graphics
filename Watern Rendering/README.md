@@ -25,13 +25,11 @@ To compile and run the project, you need to have:
 * Installed libraries: GLM, GLEW, GLFW
 
 ### Installing Dependencies
+This program requires a C++ compiler and the OpenGL, GLFW, GLM, and GLEW libraries to be installed. To install OpenGL, GLFW, GLM, and Glew on Ubuntu, you can use the following command:
 
-#### GLM
-GLM is a header-only library, so you just need to include it in your project. Download it from [GLM's GitHub repository](https://github.com/g-truc/glm/releases) and include the glm directory in your project's include path.
-
-#### GLEW
-
-For Ubuntu-based systems, you can install GLEW using the following command:
-
-```bash
+```
+sudo apt install libopengl-dev
+sudo apt install libglfw3-dev
+sudo apt install libglm-dev
 sudo apt-get install libglew-dev
+```
