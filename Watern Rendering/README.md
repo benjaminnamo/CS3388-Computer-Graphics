@@ -33,3 +33,21 @@ sudo apt install libglfw3-dev
 sudo apt install libglm-dev
 sudo apt-get install libglew-dev
 ```
+## Camera Controls
+
+The camera in this project provides a limited first-person view with the following controls:
+
+* Click and drag the object:
+  * Horizontal motion: Rotate the object around the vertical axis
+  * Vertical motion: Rotate the object around the horizontal axis
+* Arrow keys:
+  * Up arrow key: Move the camera closer to the world origin
+  * Down arrow key: Move the camera further away from the world origin
+
+The initial camera position is set at (5, 5, 5) in world space and is looking at (0, 0, 0) in world space.
+
+### Usage
+
+1. Clone the repository or download the source code
+2. Open the project in your development environment and ensure the include paths and linker settings are configured correctly for GLM, GLEW, and GLFW.
+3. Compile and run the project.
